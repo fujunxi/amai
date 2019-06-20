@@ -1,0 +1,12 @@
+#dotfile,with exceptions:
+.*
+!.gitignore
+#python compiled files
+*.py[co]
+#emacs backup files
+*~
+#not tracked subdirectories
+/env/
+/src/
+/filestore/
+/logs/
